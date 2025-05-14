@@ -25,22 +25,41 @@
         $num2 = 5;
 
         $addition = $num1 + $num2;
-        echo 'Sum Of Num1 and Num2 :'.$addition."<br/>"; 
+        echo 'Sum Of Num1 and Num2 : '.$addition."<br/>"; 
 
         $subtraction = $num1 - $num2; 
-        echo 'Subtraction Of Num1 and Num2 :'.$subtraction."<br/>";
+        echo 'Subtraction Of Num1 and Num2 : '.$subtraction."<br/>";
 
         $multiplication = $num1 * $num2;
-        echo 'Multiplication Of Num1 and Num2 :'.$multiplication."<br/>";
+        echo 'Multiplication Of Num1 and Num2 : '.$multiplication."<br/>";
 
         $division = $num1 / $num2;
-        echo 'Divison Of Num1 and Num2 :'.$division."<br/>";
+        echo 'Divison Of Num1 and Num2 : '.$division."<br/>";
         
         $exponent = $num1 ** $num2;
-        echo 'Exponent Of Num1 and Num2 :'.$exponent."<br/>";
+        echo 'Exponent Of Num1 and Num2 : '.$exponent."<br/>";
 
         $modulus = $num1 % $num2;
-        echo 'Modulus Of Num1 and Num2 :'.$modulus."<br/>";
+        echo 'Modulus Of Num1 and Num2 : '.$modulus."<br/>"."<br/>";
+
+
+        // Assignment Operators
+
+        $num += 1;
+        echo "Adding One By Assignment Operator: ".$num."<br/>";
+        
+        $num -= 2;
+        echo "Subtracting 2 By Assignment Operator : ".$num."<br/>";
+        
+        $num *= 2;
+        echo "Multipling 2 By Assignment Operator : ".$num."<br/>";
+        
+        $num /= 9;
+        echo "Dividing 9 By Assignment Operator : ".$num."<br/>";
+        
+        $num %= 2;
+        echo "Modulus 2 By Assignment Operator : ".$num."<br/>";
+        
       ?>
 </body>
 </html>
