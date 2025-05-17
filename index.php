@@ -79,7 +79,7 @@
         $day = "Monday";
         switch($day){
             case "Monday":
-                echo "Today is Monday"."<br/>";
+                echo "Today is Monday"."<br/>"."<br/>";
                 break;
 
             case "Tuesday":
@@ -107,10 +107,41 @@
                 break;
         } 
 
+        // For Loop
+
         for($i=0; $i<=10 ; $i++){
             echo $i."<br/>";
         }
 
+        // While Loop
+        
+        $i = 0;
+        while($i <= 5){
+            echo $i."<br/>";
+            $i++;
+        }
+
+        // Do While Loop
+
+        $i = 1;
+
+        do {
+            echo $i."<br/>";
+            $i++;
+        } while ($i < 6);
+
+        // For Each
+        
+        $color = array("Red","Yellow","Blue","Pink");
+        foreach($color as $i){
+            echo $i."<br/>";
+        }
+
+        // Function
+
+        function greet(){
+            echo "Hello World";
+        }
       ?>
 </body>
 </html>
