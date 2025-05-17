@@ -62,15 +62,50 @@
         
         // Conditional Statement
 
-        $age = 18;          
+        $age = 18;         
+
         if($age > 18){
-            echo "Your Age is ".$age." You can Vote!";
-        }elseif($age === 18){
-            echo "It Your Choice You Want to Vote Or Not";
+            echo "Your Age is ".$age." You can Vote!"."<br/>"."<br/>";
+        }
+        elseif($age === 18){
+            echo "It Your Choice You Want to Vote Or Not"."<br/>"."<br/>";
         }
         else{
-            echo "Your Age is ".$age." You aren't able to Vote!";
+            echo "Your Age is ".$age." You aren't able to Vote!"."<br/>"."<br/>";
         }
+
+        // Switch Statement
+        
+        $day = "Monday";
+        switch($day){
+            case "Monday":
+                echo "Today is Monday";
+                break;
+
+            case "Tuesday":
+                echo "Today is Tuesday";
+                break;
+
+            case "Wednesday":
+                echo "Today is Wednesday";
+                break;
+
+            case "Thursday":
+                echo "Today is Thursday";
+                break;
+
+            case "Friday":
+                echo "Today is Friday";
+                break;
+
+            case "Saturday":
+                echo "Today is Saturday";
+                break;
+                
+            default:
+                echo "Today is Sunday";
+                break;
+        } 
       ?>
 </body>
 </html>
