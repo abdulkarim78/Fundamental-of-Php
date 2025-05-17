@@ -110,14 +110,14 @@
         // For Loop
 
         for($i=0; $i<=10 ; $i++){
-            echo $i."<br/>";
+            echo $i."<br/>"."<br/>";
         }
 
         // While Loop
         
         $i = 0;
         while($i <= 5){
-            echo $i."<br/>";
+            echo $i."<br/>"."<br/>";
             $i++;
         }
 
@@ -126,15 +126,15 @@
         $i = 1;
 
         do {
-            echo $i."<br/>";
+            echo $i."<br/>"."<br/>";
             $i++;
         } while ($i < 6);
 
         // For Each
-        
+
         $color = array("Red","Yellow","Blue","Pink");
         foreach($color as $i){
-            echo $i."<br/>";
+            echo $i."<br/>"."<br/>";
         }
 
         // Function
@@ -142,6 +142,11 @@
         function greet(){
             echo "Hello World";
         }
+
+        // Arrays
+        $carBrands = array("Suzuki","Honda","Toyota","Ford");
+        var_dump($carBrands);
+
       ?>
 </body>
 </html>
