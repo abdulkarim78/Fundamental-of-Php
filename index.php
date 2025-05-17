@@ -79,7 +79,7 @@
         $day = "Monday";
         switch($day){
             case "Monday":
-                echo "Today is Monday";
+                echo "Today is Monday"."<br/>";
                 break;
 
             case "Tuesday":
@@ -94,18 +94,23 @@
                 echo "Today is Thursday";
                 break;
 
-            case "Friday":
+            case "Friday": 
                 echo "Today is Friday";
                 break;
 
             case "Saturday":
                 echo "Today is Saturday";
                 break;
-                
+
             default:
                 echo "Today is Sunday";
                 break;
         } 
+
+        for($i=0; $i<=10 ; $i++){
+            echo $i."<br/>";
+        }
+
       ?>
 </body>
 </html>
