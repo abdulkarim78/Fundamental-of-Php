@@ -58,8 +58,19 @@
         echo "Dividing 9 By Assignment Operator : ".$num."<br/>";
         
         $num %= 2;
-        echo "Modulus 2 By Assignment Operator : ".$num."<br/>";
+        echo "Modulus 2 By Assignment Operator : ".$num."<br/>"."<br/>";
         
+        // Conditional Statement
+
+        $age = 18;          
+        if($age > 18){
+            echo "Your Age is ".$age." You can Vote!";
+        }elseif($age === 18){
+            echo "It Your Choice You Want to Vote Or Not";
+        }
+        else{
+            echo "Your Age is ".$age." You aren't able to Vote!";
+        }
       ?>
 </body>
 </html>
